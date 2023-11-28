@@ -2,3 +2,7 @@ To run 'Deep3DFace' just follow the instructions on '' and you can refer to 'imp
 
 The 'pos9' directory contains instructions to prepare dataset for the model and training instructions.
 Instructions to create compatible environment for stylegan2 , pos9 and deep3dface are present in 'env' folder.
+
+Setup - Visual Studio 2019 , Cude Toolkit Version 11.3 , Anconda3 2023.09-0(64-bit) , 
+        Processor - AMD Ryzen 5 4600H with Radeon Graphics 3.00 GHz ,
+        System Type - 64-bit operating system, x64-based processor.
