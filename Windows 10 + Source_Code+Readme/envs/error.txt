@@ -1,0 +1,62 @@
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc --generate-dependencies-with-compile --dependency-output standard_rasterize_cuda_kernel.cuda.o.d 
+-Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed 
+-Xcudafe --diag_suppress=dll_interface_conflict_none_assumed 
+-Xcudafe --diag_suppress=field_without_dll_interface 
+-Xcudafe --diag_suppress=base_class_has_different_dll_interface 
+-Xcompiler /EHsc 
+-Xcompiler /wd4190 
+-Xcompiler /wd4018 
+-Xcompiler /wd4275 
+-Xcompiler /wd4267 
+-Xcompiler /wd4244 
+-Xcompiler /wd4251 
+-Xcompiler /wd4819 
+-Xcompiler /MD 
+-DTORCH_EXTENSION_NAME=standard_rasterize_cuda 
+-DTORCH_API_INCLUDE_EXTENSION_H 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\torch\csrc\api\include 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\TH 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\THC 
+"-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" 
+-ID:\Anaconda\envs\deca_pytorch3d\Include -D_GLIBCXX_USE_CXX11_ABI=0 
+-D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ 
+-D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ 
+--expt-relaxed-constexpr 
+-gencode=arch=compute_75,code=compute_75 
+-gencode=arch=compute_75,code=sm_75 -std=c++14 "-ccbin=$(which gcc-7)" 
+-c D:\DECA-master\decalib\utils\rasterizer\standard_rasterize_cuda_kernel.cu 
+-o standard_rasterize_cuda_kernel.cuda.o
+
+FAILED: standard_rasterize_cuda_kernel.cuda.o
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc --generate-dependencies-with-compile --dependency-output standard_rasterize_cuda_kernel.cuda.o.d 
+-Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed 
+-Xcudafe --diag_suppress=dll_interface_conflict_none_assumed 
+-Xcudafe --diag_suppress=field_without_dll_interface 
+-Xcudafe --diag_suppress=base_class_has_different_dll_interface 
+-Xcompiler /EHsc 
+-Xcompiler /wd4190 
+-Xcompiler /wd4018 
+-Xcompiler /wd4275 
+-Xcompiler /wd4267 
+-Xcompiler /wd4244 
+-Xcompiler /wd4251 
+-Xcompiler /wd4819 
+-Xcompiler /MD 
+-DTORCH_EXTENSION_NAME=standard_rasterize_cuda 
+-DTORCH_API_INCLUDE_EXTENSION_H 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\torch\csrc\api\include 
+-ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\TH -ID:\Anaconda\envs\deca_pytorch3d\lib\site-packages\torch\include\THC 
+"-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" 
+-ID:\Anaconda\envs\deca_pytorch3d\Include 
+-D_GLIBCXX_USE_CXX11_ABI=0 
+-D__CUDA_NO_HALF_OPERATORS__ 
+-D__CUDA_NO_HALF_CONVERSIONS__ 
+-D__CUDA_NO_BFLOAT16_CONVERSIONS__ 
+-D__CUDA_NO_HALF2_OPERATORS__ 
+--expt-relaxed-constexpr 
+-gencode=arch=compute_75,code=compute_75
+-gencode=arch=compute_75,code=sm_75 -std=c++14 "-ccbin=$(which gcc-7)" 
+-c D:\DECA-master\decalib\utils\rasterizer\standard_rasterize_cuda_kernel.cu 
+-o standard_rasterize_cuda_kernel.cuda.o
