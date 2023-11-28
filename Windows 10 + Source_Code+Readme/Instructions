@@ -1,0 +1,4 @@
+To run 'Deep3DFace' just follow the instructions on '' and you can refer to 'imp-deep3d_pytorch.txt' inside env folder for environment settings.
+
+The 'pos9' directory contains instructions to prepare dataset for the model and training instructions.
+Instructions to create compatible environment for stylegan2 , pos9 and deep3dface are present in 'env' folder.
